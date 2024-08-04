@@ -16,6 +16,6 @@ public class PlayerController : MonoBehaviour {
     }
 
     public void JumpHandler(InputAction.CallbackContext context) {
-        rb.AddForce(Vector2.up * 4);
+        rb.AddForce(Vector2.up * 100);
     }
 }
